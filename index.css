@@ -365,7 +365,7 @@ font-size: 30px;
     width: 300px;
 }
 
-footer {
+.footer2 {
     background-color: #c8b6ff;
     display: flex;
     justify-content: space-between;
