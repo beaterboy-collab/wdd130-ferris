@@ -1,0 +1,240 @@
+/* Global / Layout */
+body {
+background-color: #f8f9fa;
+}
+
+.page {
+max-width: 1200px;
+margin: 0 auto;
+background-color: #fff;
+padding: 50px;
+}
+
+.main {
+
+}
+
+.section {
+
+}
+
+.two-col {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+}
+
+/* Header */
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+border: #333 solid 2px;
+background: linear-gradient(#5b3eff, #fff);
+}
+
+.header-top {
+
+}
+
+.brand {
+
+}
+
+.logo, .footer-logo {
+width: 100px;
+border-radius: 10px;
+}
+
+.profile {
+
+}
+
+.nav {
+
+}
+
+.nav a {
+font-family: 'Times New Roman', Times, serif;
+border: 2px solid #333;
+text-decoration: none;
+padding: 15px 20px;
+background-color: #fff;
+}
+
+.nav a:hover {
+background-color: #5b3eff;
+color: #fff;
+}  
+
+/* Hero Section */
+.hero {
+
+}
+
+.hero-header {
+
+}
+
+.hero-text {
+
+}
+
+.hero-para { 
+max-width: 80%;
+}
+
+.hero-images {
+
+}
+
+.img-box {
+
+}
+
+p {
+font-family: "Inter", sans-serif;
+font-size: 20px;
+}
+
+h2 {
+font-family: sans-serif;
+}
+
+/* Agentic Infrastructure */
+.section-title h2{
+text-align: center;
+padding: 20px 0;
+}
+
+.button-link {
+
+}
+
+.img-frame img{
+width: 100%;
+border-radius: 30px;
+}
+
+.img-caption {
+
+}
+
+.text-block {
+
+}
+
+/* Panels & Components */
+.panel {
+
+}
+
+.panel-title {
+border: #333 solid 2px;
+padding: 10px;
+}
+
+.component-box {
+border: #333 solid 2px;
+margin: 5px;
+padding: 0 10px;
+}
+
+.component-box h4 {
+font-family: sans-serif;
+font-size: large;
+}
+
+/* Additional Info */
+#additional {
+margin: 75px 0;
+}
+
+#additional h2 {
+text-align: center;
+margin: 50px;
+}
+.muted {
+
+}
+
+.link-row {
+
+}
+
+.quick-link {
+text-decoration: none;
+font-size: 18px;
+}
+
+/* Contact Form */
+.form-card {
+
+}
+
+.form-title {
+
+}
+
+.form {
+display: flex;
+flex-direction: column;
+}
+
+.form label {
+font-size: 25px;
+}
+
+.form input {
+margin-bottom: 10px;
+height: 25px;
+}
+
+.form textarea {
+
+}
+
+.form button {
+width: 150px;
+padding: 10px;
+}
+
+.submit {
+background-color: #ecf07a;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+color: black;
+margin-top: 10px;
+}
+.submit:hover {
+background-color: #4a2ecc;
+}
+/* Footer */
+.footer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+border: #333 solid 2px;
+background: linear-gradient(#5b3eff, #fff);
+}
+
+.footer p {
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+
+.footer-left {
+
+}
+
+.footer-right {
+
+}
+
+.footer-logo {
+
+}

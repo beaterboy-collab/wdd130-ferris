@@ -7,7 +7,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Infrastructure Specialist & Web Developer | Portal Page</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,27 +21,19 @@
             <div class="header-top">
 
                 <div class="brand">
-                    <img class="logo" src="Images/logo.png" alt="April Ferris logo">
-
-                    <div class="brand-text">
-                        <h1 class="name">Web Developer</h1>
-                        <p class="tagline">Agentic Workflow Design | AI Systems</p>
-                    </div>
+                    <img class="logo" src="Images/ai logo.png" alt="April Ferris logo">
                 </div>
 
-                <div class="profile">
+                <!-- <div class="profile">
                     <img src="Images/picture.png" alt="April Ferris profile">
-                </div>
+                </div> -->
 
             </div>
 
             <nav class="nav">
                 <a href="index.html">Home</a>
-                <a href="page2.html">WWR</a>
-                <a href="#">ICE</a>
-                <a href="#">About Me</a>
-                <a href="#additional">Additional Information</a>
-                <a href="#contact">Contact</a>
+                <a href="page2.html">Info Page</a>
+                <a href="contact.html">Contact</a>
             </nav>
         </header>
 
@@ -48,9 +43,9 @@
             <!-- Hero -->
             <section class="section hero">
                 <div class="hero-text">
-                    <h2>Web Developer &amp; Infrastructure Specialist</h2>
+                    <h2 class="hero-header">Web Developer &amp; Infrastructure Specialist</h2>
 
-                    <p>
+                    <p class="hero-para">
                         I am a Web Developer and Infrastructure Specialist focused on building structured, scalable
                         systems that connect clean design with practical functionality.
                         My work combines front-end development, responsive layout, and accessibility best practices with
@@ -63,30 +58,28 @@
                     </p>
                 </div>
 
-                <div class="hero-images">
+                <!-- <div class="hero-images">
                     <div class="img-box">
-                        <!-- Change filename here to match your real file name -->
                         <img src="Images/Web-Pic.png" alt="Web Development preview image">
                     </div>
 
                     <div class="img-box">
-                        <!-- Change filename here to match your real file name -->
                         <img src="Images/workflow-image.png" alt="Workflow preview image">
                     </div>
-                </div>
+                </div> -->
             </section>
 
             <!-- Agentic Workflows -->
             <section class="section">
                 <div class="section-title">
-                    <h2>Agentic Infrastructure</h2>
-                    <a class="button-link" href="#workflow">Agentic Infrastructure Diagram &amp; Description</a>
+                    <h2>Agentic Workflows</h2>
+                    <!-- <a class="button-link" href="#workflow">Agentic Infrastructure Diagram &amp; Description</a> -->
                 </div>
 
                 <div class="two-col" id="workflow">
                     <div class="img-frame">
                         <img src="Images/Agentic-Design.png" alt="Agentic Design image">
-                        <p class="img-caption">Picture of Node Diagram & Simple Build</p>
+                        <!-- <p class="img-caption">Picture of Node Diagram & Simple Build</p> -->
                     </div>
 
                     <div class="text-block">
@@ -167,10 +160,10 @@
                 </p>
 
                 <div class="link-row">
-                    <a class="quick-link" href="#">GitHub (add link)</a>
-                    <a class="quick-link" href="#">LinkedIn (add link)</a>
-                    <a class="quick-link" href="#">Resume (add link)</a>
-                    <a class="quick-link" href="#">References (add link)</a>
+                    <a class="quick-link" href="https://github.com/" target="_blank">GitHub</a>
+                    <a class="quick-link" href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+                    <a class="quick-link" href="https://www.resume.com/" target="_blank">Resume</a>
+                    <a class="quick-link" href="https://www.mybib.com/" target="_blank">References</a>
                 </div>
             </section>
 
@@ -202,7 +195,7 @@
                             <textarea name="message" rows="4"></textarea>
                         </label>
 
-                        <button type="submit">Submit</button>
+                        <button type="submit" class="submit">Submit</button>
                     </form>
                 </div>
             </section>
@@ -216,7 +209,7 @@
             </div>
 
             <div class="footer-right">
-                <img class="footer-logo" src="Images/logo.png" alt="Logo">
+                <img class="footer-logo" src="Images/ai logo.png" alt="Logo">
             </div>
         </footer>
 
